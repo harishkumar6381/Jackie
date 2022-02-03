@@ -16,6 +16,9 @@ public class PhoneInfo {
         private void osName() {
 			System.out.println("os name is 10 pie");
 		}
+        private void Ss() {
+        	System.out.println("qwerty");
+		}
         public static void main(String[] args) {
 			PhoneInfo p = new PhoneInfo();
 			p.phoneName();
@@ -23,5 +26,6 @@ public class PhoneInfo {
 			p.Camera();
 			p.storage();
 			p.osName();
+			p.Ss();
 		}
 }
